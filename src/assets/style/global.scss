@@ -1,4 +1,5 @@
-@import './global-parts/_reset';
-@import './global-parts/_variables';
-@import './global-parts/_container';
-@import './global-parts/_typo';
+@import './global-parts/_reset.scss';
+@import './global-parts/_variables.scss';
+@import './global-parts/_container.scss';
+@import './global-parts/_typo.scss';
+@import '~bootstrap/scss/bootstrap.scss';

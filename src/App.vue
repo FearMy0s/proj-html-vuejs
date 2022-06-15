@@ -1,20 +1,29 @@
 <template>
   <div id="app">
-
+    <BaseHeader/>
+    <BaseMain/>
+    <BaseFooter/>
   </div>
 </template>
 
 <script>
-
+import BaseHeader from './components/sections/BaseHeader.vue'
+import BaseMain from './components/sections/BaseMain.vue'
+import BaseFooter from './components/sections/BaseFooter.vue'
 
 export default {
   name: 'App',
   components: {
+    BaseHeader,
+    BaseMain,
+    BaseFooter,
 
   }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
+
+
 
 </style>
