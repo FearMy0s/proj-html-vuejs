@@ -1,4 +1,11 @@
-.conatiner {
-width: 100%;
-max-width: var(--container-md);
+.conatiner{
+    width: 100%;
+    max-width: var(--container-md);
+}
+.container-sm{
+    width: 500px;
+    background-color:white;
+    position: absolute;
+    bottom: 0%;
+    height: 100px;
 }
