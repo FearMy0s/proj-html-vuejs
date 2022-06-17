@@ -4,11 +4,11 @@
         <div class="logo">
         <img src="../../assets/img/takeout-logo.png" alt="">
             <div class="navbar">
-                <h5 class="fakehover">Home <i class="fa-solid fa-chevron-down"></i></h5>
-                <h5>OrderOnline</h5>
-                <h5>About</h5>
-                <h5>News</h5>
-                <h5>Contact Us</h5>  
+                <a href="" class="fakehover">Home <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="">OrderOnline</a>
+                <a href="">About</a>
+                <a href="">News</a>
+                <a href="">Contact Us</a>
             </div>
         </div>
         <div class="Hero">
@@ -59,9 +59,15 @@ img{
         gap: 50px;
         color: white;
     }
-    .fakehover{
-        color: yellow;
+   a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+   }
+   a:hover{
+  color:gold;
     }
+
 }
 .Hero{
     color: white;
